@@ -1,11 +1,11 @@
-let input = prompt(`Введите страну`);
+let country = prompt(`Введите страну`);
 
-if (input !== null) {
-    input = input.toLowerCase();
+if (country !== null) {
+    country = country.toLowerCase();
 }
 let price;
 
-switch (input) {
+switch (country) {
     case "китай":
         price = 100;
         break;
@@ -26,5 +26,5 @@ switch (input) {
         alert(`В вашей стране доставка не доступна`);
 }
 if (price !== -1) {
-    alert (`Доставка в ${input} будет стоить ${price} кредитов`)
+    alert (`Доставка в ${country} будет стоить ${price} кредитов`)
 } 

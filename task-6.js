@@ -5,7 +5,7 @@ while (input !== null) {
     input = prompt("Введите число:");
 
     if (input !== null) {
-        let num=(Number(input));
+        const num=(Number(input));
         
         if (Number.isNaN(num)) {
             alert("Было введено не число, попробуйте еще раз");
